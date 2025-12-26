@@ -1,4 +1,4 @@
-# 🌍 HacFy Language Translator
+# HacFy Language Translator
 
 > Instantly translate text to 11+ languages using Google's Gemini AI
 
@@ -138,16 +138,6 @@ python test_models.py
 3. Connect GitHub repo
 4. Add secrets: `GEMINI_API_KEY`
 
-### Docker
-```bash
-docker build -t translator .
-docker run -e GEMINI_API_KEY=your_key -p 8501:8501 translator
-```
-
-### Heroku
-```bash
-git push heroku main
-```
 
 ## 📈 Roadmap
 
@@ -158,22 +148,7 @@ git push heroku main
 - [ ] Copy to clipboard
 - [ ] Multiple model selection
 
-## 📝 License
-
-MIT License - Feel free to use this project
-
-## 🤝 Contributing
-
-Pull requests welcome! For major changes, open an issue first.
-
-## 💬 Support
-
-- Open an issue for bugs/questions
-- Check existing issues for solutions
-- Refer to [TECHNICAL.md](TECHNICAL.md) for deep dive
-
 ---
 
-**Made with ❤️ using Streamlit & Google Gemini AI**
-
+**Made with ❤️ using Streamlit & Google Gemini AI API KEY**
 [⬆ back to top](#-hacfy-language-translator)
